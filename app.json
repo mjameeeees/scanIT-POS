@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "scanIT",
-    "slug": "scanIT",
+    "slug": "scanit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mark1234522.scanit"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e3eb692d-4083-4f31-aaeb-62e41e94ebb6"
+      }
     }
   }
 }
